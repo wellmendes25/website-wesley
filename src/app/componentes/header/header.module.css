@@ -50,7 +50,8 @@
 @media(max-width:650px){
 
     .header {
-        
+        position: fixed;
+        z-index: 2000000000;
         justify-content: right;
         
     }

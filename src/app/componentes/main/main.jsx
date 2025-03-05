@@ -4,7 +4,7 @@ import MuayThai from '../../../../public/muay.jpg'
 
 export default function Main(){
     return(
-        <main className={estilos.main}>
+        <main className={estilos.main} id="main">
             <div className={estilos.imagem_main}>
                 <div className={estilos.imagem}>
                     <Image  src={MuayThai} alt="imagem de master1305 no freepik"/>:

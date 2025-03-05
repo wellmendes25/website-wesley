@@ -31,7 +31,7 @@ export default function Header(){
         <Image src={Logo} width={50} height={50} color="#ccc"/>
 
         <ul className={estilos.lista}>
-            <li><a href="">Home</a></li>
+            <li><a href="#main">Home</a></li>
             <li><a href="#quemSomos">Quem somos</a></li>
             <li><a href="#contatos">Contatos</a></li>
         </ul>
