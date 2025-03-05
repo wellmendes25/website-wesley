@@ -39,7 +39,6 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
-  
 }
 
 
@@ -114,11 +113,15 @@
     
 }
 
-@media(max-width:350px){
+@media(max-width:380px){
     .imagem {
-        width: 220px;
+        width: 230px;
         height: 220px;
        
+    }
+
+    .texto{
+        font-size: 18px;
     }
     
 }

@@ -116,7 +116,7 @@
     
     .caixaEmail input, .caixaEmail textarea{
         width: 250px;
-        height: 20px;
+        height: 35px;
         padding: 3px;
         
     }
@@ -139,7 +139,7 @@
     
     .caixaEmail input, .caixaEmail textarea{
         width: 200px;
-        height: 20px;
+        height: 25px;
         padding: 3px;
         
     }
