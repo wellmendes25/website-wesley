@@ -1,0 +1,118 @@
+.main {
+    position: relative;
+    width: 100%;
+    
+}
+
+.imagem img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.texto {
+    width: 800px;
+    position: absolute;
+    color: white;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.texto h1 {
+    font-size: 150px;
+    text-shadow: 7px 5px 0px rgba(226, 226, 222, 0.24);
+    padding-bottom: 25px;
+}
+
+.texto p {
+    font-size: 25px;
+    text-shadow: 5px 4px 1px rgba(27, 27, 24, 0.534);
+    padding-bottom: 25px;
+}
+
+.texto a {
+    font-size: 20px;
+    display: inline-block;
+    color: #ffd11b;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* responsividade */
+
+@media (max-width: 800px){
+    .texto {
+        width: 600px;
+    }
+    
+    .texto h1 {
+        font-size: 100px;
+        text-shadow: 7px 5px 0px rgba(226, 226, 222, 0.24);
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 620px){
+    .texto {
+        width: 400px;
+    }
+    
+    .texto h1 {
+        font-size: 70px;
+        text-shadow: 7px 5px 0px rgba(226, 226, 222, 0.24);
+        padding-bottom: 25px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        text-shadow: 5px 4px 1px rgba(27, 27, 24, 0.534);
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .texto {
+        width: 300px;
+    }
+    
+    .texto h1 {
+        font-size: 70px;
+        text-shadow: 7px 5px 0px rgba(226, 226, 222, 0.24);
+        padding-bottom: 25px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        text-shadow: 5px 4px 1px rgba(27, 27, 24, 0.534);
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 350px){
+    .texto {
+        width: 250px;
+    }
+    
+    .texto h1 {
+        font-size: 70px;
+        text-shadow: 7px 5px 0px rgba(226, 226, 222, 0.24);
+        padding-bottom: 25px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        text-shadow: 5px 4px 1px rgba(27, 27, 24, 0.534);
+        padding-bottom: 25px;
+    }
+}

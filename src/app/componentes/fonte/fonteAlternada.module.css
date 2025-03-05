@@ -1,0 +1,111 @@
+.section{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fonte{
+    position: relative;
+    padding-top: 50px;
+    font-size: 34px;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    animation-name: movimenta;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.fonte2{
+    position: relative;
+    padding-bottom: 50px;
+    font-size: 34px;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    animation-name: movimenta2;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+
+.corDourada{
+    color: #ffd11b;
+}
+
+/* animações */
+
+@keyframes movimenta{
+    0% {left: 30px;}
+    100% {left: 200px;}
+}
+
+@keyframes movimenta2{
+    0% {right: -30px;}
+    100% {right: 200px;}
+}
+
+/* responsividade */
+
+@media(max-width:960px){
+    .fonte{
+        position: relative;
+        padding-top: 30px;
+        font-size: 24px;
+        
+    }
+    
+    .fonte2{
+        position: relative;
+        padding-bottom: 30px;
+        font-size: 24px;
+       
+    }
+    
+
+    @keyframes movimenta{
+        0% {left: -100px;}
+        100% {left: 200px;}
+    }
+    
+    @keyframes movimenta2{
+        0% {right: -300px;}
+        100% {right: 200px;}
+    }
+    
+}
+
+
+@media(max-width:460px){
+    .fonte{
+        position: relative;
+        padding-top: 30px;
+        font-size: 18px;
+        
+    }
+    
+    .fonte2{
+        position: relative;
+        padding-bottom: 30px;
+        font-size: 18px;
+       
+    }
+    
+
+    @keyframes movimenta{
+        0% {left: -100px;}
+        100% {left: 200px;}
+    }
+    
+    @keyframes movimenta2{
+        0% {right: -300px;}
+        100% {right: 200px;}
+    }
+    
+}
