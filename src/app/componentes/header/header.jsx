@@ -15,7 +15,7 @@ import { CgClose } from "react-icons/cg";
 
 export default function Header(){
     
-    const [abrirMenu, setAbrirMenu] = useState(true);
+    const [abrirMenu, setAbrirMenu] = useState(false);
 
     function abrirEfechar(){
         setAbrirMenu(!abrirMenu)
@@ -28,7 +28,9 @@ export default function Header(){
             <button onClick={abrirEfechar}>{abrirMenu ? <CgClose size={35} color="white"/> : <CiMenuFries size={35} color="white" /> } {abrirMenu ? <Menu/> : null}</button>
         </div>
 
-        <Image src={Logo} width={50} height={50} color="#ccc"/>
+        <a href="#main">
+            <Image src={Logo} width={50} height={50} color="#ccc"/>
+        </a>
 
         <ul className={estilos.lista}>
             <li><a href="#main">Home</a></li>
