@@ -16,7 +16,6 @@
     width: 70%;
     margin: auto;
 
-    
 }
 
 .imagem {
@@ -28,27 +27,31 @@
     margin-bottom: 30px
 }
 
-.imagem:hover{
-    cursor: pointer;
-    animation: rotacao 1.2s ease-in;
-}
 
 .caixaTexto {
-    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    z-index: 100000;
+    gap: 35px;
+    padding: 25px;
+    
 }
 
 
 .texto {
+    width: 500px;
     font-size: 20px;
     padding: 35px 10px;
-    font-weight: 600;
+    font-weight: bolder;
     animation: fadeIn 1.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: black;
+    border-radius: 5px;
+    box-shadow: -5px 10px 7px 6px rgba(0, 0, 0, 0.527);
+    z-index: 100000;
 }
 
 
@@ -103,6 +106,15 @@
         gap: 25px;
         
     }
+
+    .imagem {
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 30px
+    }
     
 }
 
@@ -112,17 +124,36 @@
         height: 300px;
         
     }
+
+    .texto {
+       width: 350px;
+    }
     
 }
 
 @media(max-width:380px){
     .imagem {
-        width: 230px;
-        height: 220px;
+        width: 280px;
+        height: 280px;
        
     }
 
     .texto{
+        width: 300px;
+        font-size: 18px;
+    }
+    
+}
+
+@media(max-width:330px){
+    .imagem {
+        width: 250px;
+        height: 250px;
+       
+    }
+
+    .texto{
+        width: 250px;
         font-size: 18px;
     }
     

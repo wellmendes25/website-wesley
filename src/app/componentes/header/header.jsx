@@ -25,11 +25,11 @@ export default function Header(){
     <header className={estilos.header}>
 
 <div className={estilos.menu}>
-            <button onClick={abrirEfechar}>{abrirMenu ? <CgClose size={35} color="white"/> : <CiMenuFries size={35} color="white" /> } {abrirMenu ? <Menu/> : null}</button>
+            <button  onClick={abrirEfechar}>{abrirMenu ? <CgClose  size={35} color="white"/> : <CiMenuFries size={35} color="white" /> } {abrirMenu ? <Menu/> : null}</button>
         </div>
 
         <a href="#main">
-            <Image src={Logo} width={50} height={50} color="#ccc"/>
+            <Image alt="imagem de logo" src={Logo} width={50} height={50} color="#ccc"/>
         </a>
 
         <ul className={estilos.lista}>
@@ -42,7 +42,7 @@ export default function Header(){
             <ul className={estilos.lista}>
                 <li><a href="https://www.instagram.com/instrutormt.wesley/" target="_blank"><CiInstagram  color="white" size={35} /> </a></li>
                 <li><a href="https://wa.me/5585994206887?text=Junte-se%20a%20nós
-" target="_blank"><FaWhatsapp  color="white" size={35} /></a></li>
+" target="_blank"><FaWhatsapp   color="white" size={35} /></a></li>
             </ul>
 
         </div>
@@ -51,7 +51,7 @@ export default function Header(){
        
         <div className={estilos.whatsapp}>
         <a href="https://wa.me/5585994206887?text=Junte-se%20a%20nós
-" target="_blank"><FaWhatsapp  color="green" size={35} /></a>
+" target="_blank"><FaWhatsapp  color="green"  size={35} /></a>
         </div>
     </header>
     )
