@@ -7,13 +7,17 @@ export default function Contatos(){
 
             <div className={estilos.formEmapa}>
                 <div className={estilos.caixaEmail}>
-                    <form action="https://formsubmit.co/78b6d3f42b3a0130d04d78e99e79c305" method="POST">
-                        <input required type="text" placeholder='Nome: '/>
-                        <input type="hidden" name="_autoresponse" value="Recebemos seu email, responderemos assim que possível"/>
-                        <input required type="email" placeholder='Email:' />
-                        <textarea id="mensagem" placeholder='Mensagem: ' required></textarea>
-                        <input className={estilos.botao} type="submit" />
-                    </form>
+                <form action="https://formsubmit.co/78b6d3f42b3a0130d04d78e99e79c305" method="POST">
+                    <input required type="text" name="nome" placeholder='Nome: ' />
+                    
+                    <input type="hidden" name="_autoresponse" value="Recebemos seu email, responderemos assim que possível"/>
+                    
+                    <input required type="email" name="email" placeholder='Email:' />
+                    
+                    <textarea id="mensagem" name="mensagem" placeholder='Mensagem: ' required></textarea>
+                    
+                    <input className={estilos.botao} type="submit" />
+                </form>
                 </div>
                 <div>
                     <iframe
