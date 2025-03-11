@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import estilos from "./header.module.css";
-import Logo from '../../../../public/logo.png';
+import Logo from '../../../../public/CHANG (17).png';
 import Menu from "../menu/menu";
 
 // react icons
@@ -29,7 +29,7 @@ export default function Header(){
         </div>
 
         <a href="#main">
-            <Image alt="imagem de logo" src={Logo} width={50} height={50} color="#ccc"/>
+            <Image alt="imagem de logo" src={Logo} width={100} height={50} color="#ccc"/>
         </a>
 
         <ul className={estilos.lista}>
@@ -51,7 +51,7 @@ export default function Header(){
        
         <div className={estilos.whatsapp}>
         <a href="https://wa.me/5585994206887?text=Junte-se%20a%20nós
-" target="_blank"><FaWhatsapp  color="green"  size={35} /></a>
+" target="_blank"><FaWhatsapp  color="green"  size={45} /></a>
         </div>
     </header>
     )
