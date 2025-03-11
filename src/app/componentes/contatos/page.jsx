@@ -9,9 +9,7 @@ export default function Contatos(){
                 <div className={estilos.caixaEmail}>
                 <form action="https://formsubmit.co/wesleydabliom@gmail.com" method="POST">
                     <input required type="text"  placeholder='Nome: '/>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"/>
                     <input type="hidden" name="_autoresponse" value="Recebemos seu email, responderemos assim que possível"/>
-                    <input type="hidden" name="_captcha" value="false"></input>
                     <input required type="email" placeholder='Email:' />
                     <textarea id="mensagem" placeholder='Mensagem: ' required></textarea>
                     <input className={estilos.botao} type="submit" />
