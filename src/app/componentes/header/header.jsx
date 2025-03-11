@@ -29,7 +29,7 @@ export default function Header(){
         </div>
 
         <a href="#main">
-            <Image alt="imagem de logo" src={Logo} width={100} height={50} color="#ccc"/>
+            <Image alt="imagem de logo" src={Logo} width={100} height={60} color="#ccc"/>
         </a>
 
         <ul className={estilos.lista}>

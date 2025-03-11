@@ -4,6 +4,7 @@ import Main from "./componentes/main/main";
 import FonteAlternada from "./componentes/fonte/page";
 import QuemSomos from "./componentes/quemSomos/page";
 import Contatos from "./componentes/contatos/page";
+import Footer from "./componentes/footer/footer";
 
 
 
@@ -19,7 +20,8 @@ export default function Home() {
         <QuemSomos/>
         <Contatos/>
       </div>
-     
+
+      <Footer/>
     </div>
   );
 }
