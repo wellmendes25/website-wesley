@@ -9,7 +9,7 @@ export default function Footer() {
           href="https://github.com/wellmendes25" 
           target="_blank" 
           rel="noopener noreferrer"
-        > W.M</a>
+        > <abbr title="Wellison Mendes">W.M</abbr></a>
       </small>
     </footer>
   );

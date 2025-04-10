@@ -16,10 +16,12 @@ export default function Home() {
       <Header/>
       <Main/>
       <FonteAlternada/>
+
       <div className={estilos.section}>
-        <QuemSomos/>
-        <Contatos/>
-      </div>
+      <QuemSomos/></div>
+
+        <div className={estilos.Contatos}><Contatos/></div>
+      
 
       <Footer/>
     </div>

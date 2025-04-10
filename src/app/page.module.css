@@ -4,12 +4,22 @@
 }
 
 .section{
-   background-image: url('../../public//fundomuay.jpg');
+   background-image: url('../../public/2151952455.jpg');
+   background-attachment: fixed;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
    color: white;
+   min-height: 1000px;
    padding: 100px 0px;
+}
 
-  
+.Contatos{
+   background-image: url('../../public/2150367669.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 1000px;
+   padding: 100px 0px;  
 }
